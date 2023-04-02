@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta -equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- link style -->
+    <link rel="stylesheet" href="./styles/style.css">
+
+    <style>
+        .nav {
+            height: 80%;
+            align-items: center;
+            padding: 5px 15px;
+            border-radius: 20px;
+            background-color: blueviolet;
+
+
+        }
+
+        .navbar {
+            /* background-color: rgb(78, 78, 78); */
+            display: flex;
+            width: 40%;
+            height: 50px;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+    </style>
+
+
+    <title>job bolg</title>
+</head>
+
+<body>
+
+    <div class="main_container">
+
+        <div class="heading">
+
+            <a href="Home.html"><img class="main_logo" src="./images/logo.png" alt=""></a>
+
+            <div class="Main_search">
+
+                <input type="text" id="search" class="search">
+                <img class="Se_icon" src="./images/icons/search-line.svg" alt="">
+
+            </div>
+
+            <div class="navbar">
+                <a href="Home.html"><span class="nav">Home</span></a>
+                <a href="employeer_profile.html"><span class="nav">Employeers</span></a>
+                <a href="./login&category final/category.html"><span class="nav">Catergory</span></a>
+                <a href="./login&category final/about.html"><span class="nav">About</span></a>
+
+            </div>
+
+            <a  style="text-align: none;" href="profile.html">
+            <div class="dp">
+
+                <span class="sayhi">Hi, John</span></a>
+                <div class="profile_pic"></div>
+
+            </div>
+        </div>
+        
+        <div class="Catergpory_link">
+            <div class="C_links">IT</div>
+            <div class="C_links">Business & Sales</div>
+            <div class="C_links">Autombile</div>
+            <div class="C_links">3D Modling</div>
+            <div class="C_links">Photo Retouching</div>
+            <div class="C_links">Construction</div>
+            <div class="C_links">Machine Learning</div>
+            <div class="C_links">App Development</div>
+
+        </div>
+
+
+        <div class="main_body">
+            <div class="Rjobs">
+                <h1>Most Recent Jobs </h1>
+
+                <!-- job 1 -->
+                <div class="jobcard" onclick="goprofile()">
+                    <h3>Post Photo Editing</h3>
+                    <p>I have 2 photos of a person that needs the background is taken out and a neutral background color
+                        added. The person is standing in front of a wall. This will be for an ID card. This job needs to
+                        be finished within 10 hours.</p>
+
+                    <div class="PAsection">
+                        <span class="price">Price: $10</span>
+
+                        <span class="apply">Apply</span>
+
+                    </div>
+                    <small>Posted 2 min ago</small>
+
+                    <div class="skillapp">
+                        <div class="skill_list">
+                            <strong>Skills: </strong>
+                            <div class="skills">Photoshop</div>
+                            <div class="skills">Lightroom</div>
+                            <div class="skills">Color Correction</div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- job 2 -->
+
+                <div class="jobcard">
+                    <h3>Flutter App Development</h3>
+                    <p>We prefer using Flutter Riverpod framework as we would like to make components that can be
+                        re-used for other flutter apps.Apart from the Screens in the document, we need QR Code Scan
+                        Screen within the App which will
+                        decode the QR code essentially to pull JSON file for UI theme and then base end point for the 18
+                        API's and credentials to connect which could be JWT Token.</p>
+
+                    <div class="PAsection">
+                        <span class="price">Price: $150</span>
+
+                        <span class="apply">Apply</span>
+
+                    </div>
+                    <small>Posted 5 min ago</small>
+
+                    <div class="skillapp">
+                        <div class="skill_list">
+                            <strong>Skills: </strong>
+                            <div class="skills">Photoshop</div>
+                            <div class="skills">Lightroom</div>
+                            <div class="skills">Color Correction</div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- job 3 -->
+                <div class="jobcard">
+                    <h3>Need PHP / Laravel developer </h3>
+                    <p>We are looking for an experienced PHP/Laravel developer to join our team. The ideal candidate
+                        will possess a strong background in web development, an excellent understanding of the Laravel
+                        framework, and strong problem-solving skills. The successful candidate will be passionate about
+                        web development, have excellent communication and collaboration skills, and be comfortable
+                        working with a variety of complex web technologies and systems.</p>
+
+                    <div class="PAsection">
+                        <span class="price">Price: $100</span>
+
+                        <span class="apply">Apply</span>
+
+                    </div>
+                    <small>Posted 10 min ago</small>
+
+                    <div class="skillapp">
+                        <div class="skill_list">
+                            <strong>Skills: </strong>
+                            <div class="skills">Photoshop</div>
+                            <div class="skills">Lightroom</div>
+                            <div class="skills">Color Correction</div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+            <a href="./login&category final/category.html" class="seemore">See more</a>
+
+
+
+
+
+
+
+
+
+
+
+            <div class="sellers">
+
+                <h1>Top Sellers</h1>
+
+                <!-- Seller 1 -->
+
+                <div class="seller_card" onclick="goprofile()">
+
+                    <div class="S_profile_img" style="background-image: url(./images/Sellers/M1.jpg);">
+
+                    </div>
+
+                    <div class="S_detail">
+                        <span class="Sname">John Smith</span>
+                        <div class="jobtitle">Fullstack Developer</div>
+
+                        <div class="seller_desc">
+                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus atque cum quisquam
+                                odio dicta
+                                eius quasi voluptate repellendus nam architecto.</span>
+
+
+                        </div>
+
+
+                        <div class="skill_list">
+                            <div class="skills">Python</div>
+                            <div class="skills">PHP</div>
+                            <div class="skills">Node js</div>
+                            <div class="skills">React</div>
+                        </div>
+
+
+                    </div>
+                    <div class="hirebtn">
+                        Hire Me
+                    </div>
+
+
+                </div>
+
+                <!-- Seller 2 -->
+
+                <div class="seller_card">
+                    <div class="S_profile_img" style="background-image: url(./images/Sellers/M2.jpg);">
+                        <!-- <img src="./images/Sellers/2.jpg" alt=""> -->
+                    </div>
+
+                    <div class="S_detail">
+                        <span class="Sname">James Robert</span>
+                        <div class="jobtitle">App Developer</div>
+
+                        <div class="seller_desc">
+                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus atque cum quisquam
+                                odio dicta
+                                eius quasi voluptate repellendus nam architecto.</span>
+
+
+                        </div>
+
+
+                        <div class="skill_list">
+                            <div class="skills">Python</div>
+                            <div class="skills">Node js</div>
+                            <div class="skills">Flutter</div>
+                            <div class="skills">React</div>
+                        </div>
+
+
+
+                    </div>
+                    <div class="hirebtn">
+                        Hire Me
+                    </div>
+
+                </div>
+
+                <!-- Seller 3 -->
+
+                <div class="seller_card">
+                    <div class="S_profile_img" style="background-image: url(./images/Sellers/M7.webp);">
+
+                    </div>
+
+                    <div class="S_detail">
+                        <span class="Sname">David Richard</span>
+                        <div class="jobtitle">Machine Learning </div>
+
+                        <div class="seller_desc">
+                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus atque cum quisquam
+                                odio dicta
+                                eius quasi voluptate repellendus nam architecto.</span>
+
+
+                        </div>
+
+
+                        <div class="skill_list">
+                            <div class="skills">Python</div>
+                            <div class="skills">Java</div>
+                            <div class="skills">Tensor Flow</div>
+                            <div class="skills">R</div>
+                        </div>
+
+
+
+                    </div>
+                    <div class="hirebtn">
+                        Hire Me
+                    </div>
+
+                </div>
+
+                <!-- seller 4 -->
+
+                <div class="seller_card" onclick="goprofilejesi()">
+                    <div class="S_profile_img" style="background-image: url(./images/Sellers/G2.jpg);">
+
+                    </div>
+
+                    <div class="S_detail">
+                        <span class="Sname">Jassica</span>
+                        <div class="jobtitle">Graphic Designer</div>
+
+                        <div class="seller_desc">
+                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus atque cum quisquam
+                                odio dicta
+                                eius quasi voluptate repellendus nam architecto.</span>
+
+
+                        </div>
+
+
+                        <div class="skill_list">
+                            <div class="skills">Python</div>
+                            <div class="skills">Java</div>
+                            <div class="skills">Flutter</div>
+                            <div class="skills">React</div>
+                        </div>
+
+
+
+                    </div>
+                    <div class="hirebtn">
+                        Hire Me
+                    </div>
+
+                </div>
+            </div>
+
+            <a href="employeer_profile.html" class="seemore">See more</a>
+
+
+        </div>
+
+        
+
+
+        <div class="Rjobs"></div>
+
+
+    </div>
+
+
+    <!-- footer -->
+
+    <br><br>
+
+    <div class="footer">
+        <div class="fr_items">
+            <div class="Row_item">
+                <h3>Catergory</h3>
+
+                <a href="://">Programming</a>
+                <a href="://">Content Writing</a>
+                <a href="://">Graphic Design</a>
+                <a href="://">Vide Editing</a>
+                <a href="://">Music Creation</a>
+                <a href="://">Programming</a>
+                <a href="://">Programming</a>
+
+
+            </div>
+
+            <div class="Row_item">
+                <h3>Pages</h3>
+
+                <a href="Index.html">Home</a>
+                <a href="./login&category final/category.html">Services</a>
+                <a href="profile.html">Profile</a>
+                <a href="./login&category final/about.html">Help</a>
+            </div>
+
+            <div class="Row_item">
+                <h3>Helps</h3>
+
+                <a href="://">Term And Condition</a>
+                <a href="://">Forum</a>
+                <a href="://">Blog</a>
+                <a href="./login&category final/about.html">About</a>
+
+                <div class="Social_icon">
+
+                </div>
+
+
+            </div>
+
+            <!--  Social media Icons -->
+            <div class="Row_item">
+                <h3>Follow Us</h3>
+                <div class="Row_item iconset">
+                    <a href="://">
+                        <img class="sicon" src="images/icons/facebook-circle-fill.svg" alt="">
+
+                    </a>
+
+                    <a href="://">
+                        <img class="sicon" src="images/icons/twitter-fill.svg" alt="">
+
+                    </a>
+
+                    <a href="://">
+                        <div class="sicon"> <img src="images/icons/pinterest-fill.svg" alt=""></div>
+                    </a>
+
+                    <a href="://">
+                        <div class="sicon"><img src="images/icons/linkedin-box-fill.svg" alt=""></div>
+                    </a>
+
+
+
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+
+        <div class="logoD">
+            <img class="logo" src="images/logo.png" alt="">
+        </div>
+
+        <hr class="Hrule">
+
+
+
+
+        <br>
+        <div class="devt">
+
+            <small>Developed by FOT</small>
+
+        </div>
+
+
+
+    </div>
+    <script>
+        function goprofile(){
+            window.location.href="profile.html";
+        }
+        function goprofilejesi(){
+            window.location.href="profile_jessica.html";
+        }
+    </script>
+</body>
+
+</html>
