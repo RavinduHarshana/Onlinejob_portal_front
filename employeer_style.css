@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background-color: #effbfb;
+    background-color: #ffffff;
 }
 .headerdiv{
     display: flex;
@@ -47,7 +47,7 @@ body{
 }
 
 .name{
-    color: #5f9fa1;
+    color: #BA68C8;
     font-family: sans-serif;
     font-size: 25px;
     font-weight:bold ;
